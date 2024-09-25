@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.98766a18.css",
+    "main.js": "/to-do-list/static/js/main.5532380b.js",
+    "static/js/453.4869e0f5.chunk.js": "/to-do-list/static/js/453.4869e0f5.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/to-do-list/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/to-do-list/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/to-do-list/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/jpg": "/to-do-list/static/media/adb9a9a622a2353b4c741f83acbd675c.00c1c9cea120623d0ee1.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/to-do-list/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/to-do-list/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/e.jpg": "/to-do-list/static/media/e.3c566b12df360185f862.jpg",
+    "index.html": "/to-do-list/index.html",
+    "main.98766a18.css.map": "/to-do-list/static/css/main.98766a18.css.map",
+    "main.5532380b.js.map": "/to-do-list/static/js/main.5532380b.js.map",
+    "453.4869e0f5.chunk.js.map": "/to-do-list/static/js/453.4869e0f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98766a18.css",
+    "static/js/main.5532380b.js"
+  ]
+}

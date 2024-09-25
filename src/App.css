@@ -1,0 +1,141 @@
+/* src/App.css */
+@import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@30..200,24&display=swap");
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(./img/adb9a9a622a2353b4c741f83acbd675c.jpg);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-image: url(./img/e.jpg);
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-task-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-control{
+  flex: 1;
+  padding: 10px;
+  width: 50px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+
+}
+
+.add-btn {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.save-btn {
+  background-color: #28a745;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 5px;
+}
+/* src/App.css */
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+  color: gray;
+}
+h1 {
+	font-size: 15;
+	font-family: Nabla;
+  margin-bottom: 20px;
+}
+
+@font-palette-values --Nabla {
+	font-family: Nabla;
+	base-palette: 2;
+}
+
+span {
+	animation: depth 1s ease-in-out alternate infinite;
+	position: relative;
+	display: inline-block;
+	font-variation-settings: "EDPT" 30;
+	font-palette: --Nabla;
+	@for $i from 1 through 12 {
+		&:nth-child(#{$i}) {
+			animation-delay: $i * 0.1s;
+		}
+	}
+}
+
+@keyframes depth {
+	0% {
+		transform: translatex(0) translatey(0);
+	}
+	100% {
+		font-variation-settings: "EDPT" 200;
+		transform: translatex(0.15em) translatey(0.1em);
+	}
+}
+.flex-grow-1{
+  color: white;
+}
+.text-center{
+  color: white;
+}
